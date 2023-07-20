@@ -1,0 +1,15 @@
+numpy
+pandas
+torch
+transformers
+scikit-learn
+nltk
+spacy
+gensim
+datasets
+ipykernel
+jupyter
+ipywidgets
+sentencepiece
+openai
+langchain

@@ -1,0 +1,24 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Data folders
+notebooks/data/embeddings/
+notebooks/data/sentiment_data_custom/
+
+
+# Model folders
+models/
+*.pth
+*.pkl
+
+# Virtual environment folders
+venv/
+*.egg-info/
+dist/

@@ -1,0 +1,12 @@
+You must return your answer in JSON format. Don't need to give explanation. For each sentence in input_text, you need to transform the sentence with following rules. Return the result in a list of JSON object.
+
+output format: [{{"idx":0, "o1": "", "o2":"", "o3":""}}]
+
+output1: Randomly choose n words from the sentence that are not stop words. Replace each of these words with one of its synonyms chosen at random.
+output2: Find a random synonym of a random word in the sentence that is not a stop word. Insert that synonym into a random position in the sentence.
+output3: Randomly choose two words in the sentence and swap their positions.
+
+input_text format: [idx] sentence
+
+input_text: 
+{input_text}
